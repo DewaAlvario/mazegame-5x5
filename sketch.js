@@ -12,7 +12,7 @@ let playerY = 0;
 let totalSum = 0;
 let visited = []; // Menyimpan sel yang sudah dikunjungi
 let stopMoving = false;
-let kunciJawaban = 42;
+let kunciJawaban = 0;
 
 function setup() {
   createCanvas(mazeSize * cellSize + 20, mazeSize * cellSize + 40);
